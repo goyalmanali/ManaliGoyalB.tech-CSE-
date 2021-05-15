@@ -1,0 +1,105 @@
+@media only screen and (max-width:280px){
+   
+}
+@media only screen and (max-width:364px){
+    .img-adjust{
+        width: 100%;
+    }
+    /* Education */
+}
+@media only screen and (max-width:546px){
+    .container{
+        border: none;
+    }
+    table, th, tr, td{
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(237, 245, 245);
+    }
+    /* main section */
+    .aboutme{
+       width: 100%;
+       padding: 0px;
+    }
+    .passport{
+        width: 55%;
+    }
+    /* Techincal skills */
+    .skill{
+        margin: 0px;
+    }
+    .lang div:first-child{
+        width: 60%;
+        padding: 0px;
+    }
+    .lang div:last-child{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    body{
+        font-size: 0.7rem;
+        font-weight: bolder;
+    }
+    /* Training */
+    .trainig{
+        margin: 0px;
+    }
+    .tdetail div:first-child{
+        width: 75%;
+    }
+    .tdetail div:last-child{
+        width: 111%;
+    }
+    .kodnest strong{
+        text-decoration: underline;
+    }
+    /* Experience */
+    .experience{
+        margin: 0px 8px;
+    }
+    .assetmanage div strong:last-child{
+        text-decoration: underline;
+    }
+    .assetmanage div:first-child{
+        width: 50%;
+    }
+    .assetmanage div:last-child{
+        width: 100%;
+    }
+    /* College project */
+    .project{
+        margin: 0px;
+    }
+    .paragraph strong{
+        text-decoration: underline;
+    }
+    /* Personal Detail */
+    .detail{
+        padding: 0px 10px;
+        margin: auto -56px;
+    }
+    .detail div:first-child{
+        width: 60%;
+    }
+    .detail div:last-child{
+        width: 70%;
+    }
+
+}
+/* @media only screen and (max-width:1024px){
+    .container{
+        margin: 5px 22px;
+    }
+    body{
+        font-size: 1.5rem;
+    }
+    .passport{
+        width: 60%;
+    }
+} */

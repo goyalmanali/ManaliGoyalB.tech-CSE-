@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'New Tegomin', serif;
+    line-height: 2.0;
+    font-size: 1rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border: 5px double black;
+    padding: 10px 20px;
+}
+header{
+    text-align: center;
+    text-decoration: underline;
+}
+.header:hover{
+    cursor: pointer;
+    color: rgb(112, 103, 103);
+}
+.main-section{
+    width: 100%;
+    display: flex;
+}
+.aboutme{
+    width: 100%;
+    padding: 40px;
+}
+.aboutme ul li{
+    list-style: none;
+}
+#link{
+    color: blue;
+    text-decoration: underline;
+}
+.passport{
+    width: 30%;
+}
+.passport img{
+    height: 93%;
+    width: 55%;
+    min-width: 112px;
+}
+
+.seprator{
+    padding: 10px 15px;
+}
+.header{
+    text-decoration: underline;
+    font-size: 20px;
+}
+/* Training */
+.trainig{
+    margin: 10px 20px;
+}
+.training-detail{
+    width: 100%;
+}
+.tdetail{
+    display: flex;
+}
+.tdetail div:first-child{
+    width: 50%;
+}
+.tdetail div:last-child{
+    width: 72%;
+}
+/* Experience */
+.experience{
+    margin: 10px 20px;
+}
+.assetmanage{
+    display: flex;
+}
+.assetmanage div:first-child{
+    width: 30%;
+}
+.assetmanage div:last-child{
+    width: 70%;
+}
+.asset{
+    margin: 0px 30px;
+}
+/* Education */
+.education{
+    margin: 10px 20px;
+}
+.table-adjust{
+    justify-content: center;
+    display: flex;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0px 20px;
+}
+tr th{
+    padding: 0 5px 0 5px;
+}
+tr td{
+    text-align: center;
+}
+
+/* skill set */
+.skill{
+    margin: 10px 20px;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lang{
+    display: flex;
+}
+.lang div:first-child{
+    width: 30%;
+    padding: 0px 20px;
+}
+.lang div:last-child{
+    width: 70%;
+}
+.progressbar{
+    width: 90%;
+}
+/* College Project */
+.project{
+    margin: 10px 20px;
+}
+/* Personal Details */
+.personal{
+    margin: 10px 20px;
+}
+.pdetail{
+    width: 70%;
+    margin: auto;
+}
+.detail{
+    display: flex;
+    padding: 0px 20px;
+}
+.detail div:last-child{
+    width: 60%;
+}
+.detail div:first-child{
+    width: 40%;
+}
